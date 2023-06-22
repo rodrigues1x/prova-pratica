@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Prova Pratica do Pedrão</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: darkgray;
+                color: black;
+                margin: 0;
+                padding: 20px;
+            }
+
+            h1 {
+                color:black;
+            }
+
+            p{
+                line-height: 1.5;
+            }
+
+            img {
+                max-width: 17%;
+                height: auto;
+            }
+            a{
+                color:black;
+                text-decoration: underline;
+                text-align: right;
+            }
+
+            ul {
+                list-style-type: disc;
+                text-align: justify;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            th, td{
+                padding: 8px;
+                text-align: left;
+                border-bottom: 1px solid #f2f2f2;
+            }
+
+            input[type="text"], textarea, select {
+                width: 100%;
+                padding: 8px;
+                border: 1px solid #cccc;
+                border-radius: 4px;
+            }
+
+            input[type="submit"] {
+            background-color:black;
+            color:#f2f2f2;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor:pointer;
+            }
+
+            form {
+                width: 15%;
+            }
+        </style>
+</head>
+<body>
+<h1>Coringao</h1>
+
+    <p>o maior clube que ja existiu.</p>
+    <img src="https://logodownload.org/wp-content/uploads/2016/11/Corinthians-logo-escudo-1.png" alt="timao sempre">
+
+    <a href="https://www.youtube.com/watch?v=9cIWcoQONfk">melhor musica do mundo.</a>
+
+    <ul>
+        <li>maior campeão paulista</li>
+        <li>bi campeão mundial</li>
+        <li>campeão invicto da libertadores</li>
+        <li>maior torcida do mundo</li>
+    </ul>
+
+    <table>
+        <tr>
+            <th>Dados</th>
+            <th>Dados</th>
+        </tr>
+        <tr>
+            <td>Ano de Fundação: 1910</td>
+            <td>Maior idolo: Cassio</td>
+        </tr>
+        <tr>
+            <td>Melhor jogador: Roger Guedes</td>
+            <td>Tecnico: Luxa</td>
+        </tr>
+    </table>
+
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" rows="4" required></textarea>
+
+        <label for="opcao">Opção</label>
+        <select id="opcao" name="opcao">
+            <option value="opcao1"></option>
+            <option value="opcao2"></option>
+            <option value="opcao3"></option>
+        </select>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
